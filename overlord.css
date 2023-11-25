@@ -1,0 +1,155 @@
+/* Overarching css.file */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.second-tier-header{
+    color: #0B674b;
+    font-family: Josefin Sans;
+}
+.brown-text{
+    color: #8c6239;
+    font-family: Noto Sans;
+}
+.nav-container{
+    border: 1px red solid;
+    width: 100%;
+    background-color: #533B24;
+    display: flex;
+    flex-direction: row;
+}
+.logo{
+    border: 1px blue solid;
+    display: inline;
+    align-items: center;
+    margin: 20px 60px;
+}
+.logo img{
+    height: 100px;
+}
+.navbar{
+    border: yellow 1px solid;
+    float: right;
+    display: flex;
+    flex-grow: 1;
+    justify-content: flex-end;
+    align-items: center;
+}
+.navbar a{
+    border: green 1px solid;
+    justify-content: flex-end;
+    text-decoration: none;
+    color: white;
+    padding: 15px 40px;
+}
+.navbar a{
+    font-family: 'Josefin Sans';
+    font-size: 1.5rem;
+}
+.hamburger-container{
+    border: yellow 1px solid;
+    display: none;
+    flex-grow: 1;
+    justify-content: flex-end;
+    align-items: center;
+}
+.hamburger{
+    position: relative;
+    display: none;
+    border: green 1px solid;
+    right: 5%;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    z-index: 1;
+
+
+    appearance: none;
+    background: none;
+    outline: none;
+    border: none;
+}
+.hamburger .bar, .hamburger::after, .hamburger::before{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 4px;
+    background-color: white;
+    margin: 6px 0px;
+    transition: 0.4s;
+}
+.hamburger.is-active::before{
+    transform: rotate(-45deg) translate(-11px, 5px);
+}
+.hamburger.hamburger.is-active .bar{
+    opacity: 0;
+}
+.hamburger.is-active::after{
+    transform: rotate(45deg) translate(-9px, -3px);
+}
+.mobile-nav{
+    position: fixed;
+    display: block;
+    top: 0;
+    left: 100%;
+    width: 100%;
+    height: 100vh;
+    background-color: #09a143;
+    opacity: 0.8;
+    padding-top: 120px;
+    transition: 0.4s;
+}
+.mobile-nav.is-active{
+    left: 0;
+}
+.mobile-nav a{
+    display: block;
+    text-align: center;
+    margin-bottom: 16px;
+    padding: 12px 16px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Josefin Sans'; 
+}
+.mobile-nav a:hover{
+    color: grey;
+}
+
+
+
+
+
+@media (max-width: 1600px){
+    .logo img{
+        height:70px;
+    }
+    .navbar a{
+        padding: 15px 30px;
+        font-size: 0.8rem;
+    }
+}
+@media (max-width: 1180px){
+    .logo img{
+        height:50px;
+    }
+    .navbar a{
+        padding: 15px 20px;
+        font-size: 0.6rem;
+    }
+}
+@media (max-width: 870px){
+    .navbar{
+        display: none;
+    }
+    .hamburger-container{
+        display: flex;
+    }
+    .hamburger{
+        display: block;
+    }
+}
+
+
+/* ==============================  NAVIGATIONAL PANEL ============================== */
