@@ -1,0 +1,31 @@
+.overall-container{
+    border: pink 3px solid;
+    margin: 90px 120px 0px 120px;
+}
+.overall-header{
+    border: purple 2px solid;
+}
+.overall-content{
+    display: flex;
+    padding-top: 90px;
+}
+.image-container{
+    padding: 0px 50px;
+}
+.image-container img{
+    height: 300px;
+    width: 500px;
+    border-radius: 12px;
+}
+.text-container1{
+    padding-right: 60px;
+}
+.text-container{
+    margin-left: 50px;
+}
+.text-content{
+    padding-top: 30px;
+}
+.concept-container{
+    flex-direction: row-reverse;
+}

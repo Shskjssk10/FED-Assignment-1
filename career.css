@@ -1,0 +1,9 @@
+.saiz-logo-container{
+    border: red 1px solid;
+    display: flex;
+}
+.saiz-logo-container img{
+    justify-items: center;
+    padding-left: auto;
+    padding-right: auto;
+}

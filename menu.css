@@ -1,0 +1,20 @@
+.menu-container{
+    border: red 1px solid;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.pdf-viewer{
+    border: pink 1px solid;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.pdf-viewer embed{
+    height: 800px;
+    width: 60%;
+}
+.lunch-text{
+    font-size: 1.5rem;
+}

@@ -3,14 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width='device-width', initial-scale=1.0">
-    <title>Saizeriya Home</title>
+    <title>Find & Contact</title>
 
     <link href='https://fonts.googleapis.com/css?family=Josefin Sans' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Noto Sans' rel='stylesheet'>
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="find&contact.css">
     <link rel="stylesheet" href="overlord.css">
 
+    <link href="https://cdn.maptiler.com/maptiler-sdk-js/v1.1.1/maptiler-sdk.css" rel="stylesheet" />
+
     <script src="overlord.js"></script>
+    <script src="find&contact.js"></script>
+
+    <script src="https://cdn.maptiler.com/maptiler-sdk-js/v1.1.1/maptiler-sdk.umd.min.js"></script>
     <script src="https://kit.fontawesome.com/15369d822f.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -43,7 +48,34 @@
                 </nav>
             </div>           
     </header>
-    <!-- ================================================================== -->
+    <!-- ======================== NAVIGATION MENU ======================== -->
+    <section>
+        <section class="banner-related">
+            <div class="wrapper">
+                <div class="banner-container">
+                    <img class="banner" src="Images/Find&Contact_Saizeriya/rolled_maps.jpg">
+                    <div class="content">
+                        <p>RESTAURANT SEARCH</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="overall-container">
+                <div class="overall-header">
+                    <div class="first-tier-header">RESTAURANT SEARCH</div>
+                    <div class="flag-container">
+                        <div class="green"></div>
+                        <div class="white"></div>
+                        <div class="red"></div>
+                    </div>
+                </div>
+                <div class="map-container">
+                    <div id="map"></div>
+                </div>
+            </div>
+        </section>
+    </section>
     <!-- ======================== FOOTER ======================== -->
     <footer>
         <div class="footer-container">
@@ -83,6 +115,3 @@
         </div>
     </footer>
     <!-- ================================================================== -->
-    
-</body>
-</html>
