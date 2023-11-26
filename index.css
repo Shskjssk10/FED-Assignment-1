@@ -1,0 +1,61 @@
+.header-image-container{
+    width: 100%;
+}
+.header-image-container img{
+    width: 100%;
+}
+.big-container{
+    border: 3px purple solid;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.la-buona-tavola{
+    border: black 1px solid;
+    display: flex;
+    width: 70%;
+    margin: 80px 0px;
+}
+.reverse{
+    flex-direction: row-reverse;
+}
+.buona-image{
+    border: blue 2px solid;
+    width: 50%;
+}
+.buona-image img{
+    width: 100%;
+    border-radius: 16px;
+}
+.la-buona-text{
+    border: pink 1px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+}
+.first-tier-header{
+    border: pink 3px solid;
+    font-size: 0.8rem;
+}
+.brown-text{
+    padding-top: 20px;
+    text-align: center;
+}
+.big-container{
+    border: blue 1px solid;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.arc-saiz-container{
+    padding: 20px;
+    width: 70%;
+}
+.arc-saiz-container img{
+    border-radius: 16px;
+}
+.footer-container{
+    margin-top: 50px;
+}

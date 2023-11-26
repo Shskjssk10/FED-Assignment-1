@@ -1,9 +1,150 @@
-.saiz-logo-container{
+.recruit-container{
+    display: flex;
+    object-fit: contain;
+}
+.recruit-container img{
+    height: auto;
+    width: 100%;
+}
+.overall-header{
+    margin-top: 80px;
+}
+.bold{
+    font-weight: bold;
+}
+.flag-container{
+    margin-top: 30px;
+}
+.three-image-container{
+    width: 100%;
+    object-fit: contain;
+    margin-top: 40px;
+}
+.three-image-container img{
+    width: 100%;
+}
+.performance-image-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.performance-image-container img{
+    width: 65%;
+}
+.big-container{
+    border: blue 1px solid;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.prospect-holder{
     border: red 1px solid;
     display: flex;
+    justify-content: space-between;
+    width: 62.5%;
+    padding: 4% 0%;
 }
-.saiz-logo-container img{
-    justify-items: center;
-    padding-left: auto;
-    padding-right: auto;
+.image-holder{
+    width: 48%;
+}
+.image-holder img{
+    width: 100%;
+}
+.text-holder{
+    border: black 2px solid;
+    width: 48%;
+    border-radius: 12px;
+}
+.job-prospect h2{
+    color: #0b674b;
+    font-family: Josefin Sans;
+    padding: 4% 2% 2% 2%;
+    font-size: 200%;
+}
+.about-job p{
+    color: #8c6239;
+    font-family: Noto Sans;
+    font-weight: bold;
+    font-size: 110%;
+    padding-left: 2%;
+    padding-top: 2%;
+    padding-right: 4%;
+}
+.responsibilities-header h3{
+    color: #0b674b;
+    font-family: Josefin Sans;
+    padding-top: 4%;
+    padding-left: 2%;
+    padding-bottom: 2%;
+    font-size: 150%;
+}
+.responsibilities-related{
+    color: #8c6239;
+    font-family: Josefin Sans;
+    font-size: 120%;
+    padding-right: 4%;
+}
+.responsibilities-related li{
+    padding-top: 1%;
+    padding-left: 3%;
+}
+.pay-header{
+    color: #0b674b;
+    font-family: Josefin Sans;
+    padding-top: 4%;
+    padding-left: 2%;
+    font-size: 120%;
+}
+.pay-related{
+    color: #8c6239;
+    font-family: Josefin Sans;
+    font-size: 120%;
+}
+.pay-related li{
+    padding-left: 2%;
+    padding-top: 2%;
+    padding-right: 4%;
+}
+.service-crew{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.three-image-2-container{
+    width: 100%;
+    object-fit: contain;
+}
+.three-image-2-container img{
+    width: 100%;
+}
+.application-info{
+    border: 1px black solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 55%;
+    padding: 50px 100px;
+    border-radius: 4px;
+}
+.tel, .mobile, .email{
+    border: green 1px solid;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.indicator{
+    border: pink 1px solid;
+    font-family: Noto Sans;
+    color: #0b674b;
+    font-weight: bold;
+    font-size: 200%;
+    width: 30%;
+}
+.value{
+    font-family: Noto Sans;
+    color: #8c6239;
+    font-size: 200%;
+}
+.footer-container{
+    margin-top: 4%;
 }
