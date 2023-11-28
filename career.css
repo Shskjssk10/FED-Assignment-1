@@ -1,3 +1,15 @@
+.content p{
+    font-size: 5rem;
+}
+.first-tier-header{
+    font-size: 4rem;
+}
+.second-tier-header{
+    font-size: 2rem;
+}
+.brown-text{
+    font-size: 1.4rem;
+}
 .recruit-container{
     display: flex;
     object-fit: contain;
@@ -13,7 +25,7 @@
     font-weight: bold;
 }
 .flag-container{
-    margin-top: 30px;
+    margin-top: 1%px;
 }
 .three-image-container{
     width: 100%;
@@ -60,13 +72,13 @@
     color: #0b674b;
     font-family: Josefin Sans;
     padding: 4% 2% 2% 2%;
-    font-size: 200%;
+    font-size: 100%;
 }
 .about-job p{
     color: #8c6239;
     font-family: Noto Sans;
     font-weight: bold;
-    font-size: 110%;
+    font-size: 60%;
     padding-left: 2%;
     padding-top: 2%;
     padding-right: 4%;
@@ -77,12 +89,12 @@
     padding-top: 4%;
     padding-left: 2%;
     padding-bottom: 2%;
-    font-size: 150%;
+    font-size: 90%;
 }
 .responsibilities-related{
     color: #8c6239;
     font-family: Josefin Sans;
-    font-size: 120%;
+    font-size: 70%;
     padding-right: 4%;
 }
 .responsibilities-related li{
@@ -94,12 +106,12 @@
     font-family: Josefin Sans;
     padding-top: 4%;
     padding-left: 2%;
-    font-size: 120%;
+    font-size: 90%;
 }
 .pay-related{
     color: #8c6239;
     font-family: Josefin Sans;
-    font-size: 120%;
+    font-size: 70%;
 }
 .pay-related li{
     padding-left: 2%;
@@ -147,4 +159,18 @@
 }
 .footer-container{
     margin-top: 4%;
+}
+@media (max-width:1700px){
+    .content p{
+        font-size: 5rem;
+    }
+    .first-tier-header{
+        font-size: 2.5rem;
+    }
+    .second-tier-header{
+        font-size: 1rem;
+    }
+    .brown-text{
+        font-size: 1.1rem;
+    }
 }

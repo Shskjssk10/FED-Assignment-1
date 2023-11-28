@@ -396,6 +396,9 @@ html{
     .fineprint-text{
         padding-right: 10px;
     }
+    .operating-hours-container{
+        margin-top: 20px;
+    }
 }
 @media (max-width: 600px){
     .main-footer-container{
@@ -409,5 +412,9 @@ html{
         padding: 20px 30px;
 
     }
+    .operating-hours-container{
+        margin-top: 0;
+    }
+    
 }
 
