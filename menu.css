@@ -1,3 +1,15 @@
+.content p{
+    font-size: 5rem;
+}
+.first-tier-header{
+    font-size: 4rem;
+}
+.second-tier-header{
+    font-size: 2rem;
+}
+.brown-text{
+    font-size: 1.4rem;
+}
 .menu-container{
     border: red 1px solid;
     margin-top: 100px;
@@ -15,6 +27,87 @@
     height: 800px;
     width: 60%;
 }
+.kids-menu{
+    width: 50%;
+}
+.kids-menu img{
+    width: 100%;
+}
 .lunch-text{
     font-size: 1.5rem;
+}
+@media (max-width: 1400px){
+    .content p{
+        font-size: 4rem;
+    }
+    .first-tier-header{
+        font-size: 3rem;
+    }
+    .second-tier-header{
+        font-size: 2rem;
+    }
+    .brown-text{
+        font-size: 1.4rem;
+    }
+    .pdf-viewer embed{
+        height: 700px;
+    }
+}
+@media (max-width:1130px){
+    .content p{
+        font-size: 3rem;
+    }
+    .first-tier-header{
+        font-size: 2.5rem;
+    }
+    .brown-text{
+        font-size: 1rem;
+    }
+    .menu-container{
+        margin-top: 70px;
+    }
+    .pdf-viewer embed{
+        height: 500px;
+    }
+}
+@media (max-width:767px){
+    .content p{
+        font-size: 2.5rem;
+    }
+    .first-tier-header{
+        font-size: 2rem;
+    }
+    .brown-text{
+        font-size: 0.8rem;
+    }
+    .pdf-viewer embed{
+        height: 200px;
+    }
+}
+@media (max-width:767px){
+    .first-tier-header{
+        font-size: 1.7rem;
+    }
+    .pdf-viewer embed{
+        height: 200px;
+    }
+}
+@media (max-width:500px){
+    .first-tier-header{
+        font-size: 1.5rem;
+    }
+    .pdf-viewer embed{
+        height: 200px;
+    }
+}
+@media (max-width:400px){
+    .first-tier-header{
+        font-size: 1.2rem;
+    }
+    .brown-text{
+        font-size: 0.5rem;
+    }
+    .pdf-viewer embed{
+        height: 200px;
+    }
 }

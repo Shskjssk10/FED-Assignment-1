@@ -50,11 +50,14 @@
     width: 100%;
 }
 .arc-saiz-container{
+    border: green 2px solid;
     padding: 20px;
-    width: 70%;
+    width: 60%;
 }
 .arc-saiz-container img{
     border-radius: 16px;
+    object-fit: contain;
+    width: 100%;
 }
 .footer-container{
     margin-top: 50px;
