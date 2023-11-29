@@ -1,4 +1,4 @@
-# FED-Assignment-1 ()
+# FED-Assignment-1 
 
 The focus of this project is to give Singapore's Saizeriya counterpart website a more professional and inviting look. 
 
@@ -7,13 +7,13 @@ outlets, is well known for its family-friendly atmosphere, and Italian menu serv
 its website reflects that. However, Singapore’s Saizeriya website does not, and in fact is quite amateur. While the website’s UX is average, its UI on the
 other hand seems ‘homemade’. The aesthetic of the website does not reflect the warmth of the company’s brand, but instead rubs off as unprofessional.
 
-## Design Process ()
+## Design Process
 
 The design process behind this project is to improve the UI of the website. As mentioned, the UX is alright and sufficient, the main improvement is on the 
 website's professional look. This new revamped website is meant for everyone of all ages, particularly targetting the younger generations as they are more
 appealed to websites that look better. 
 
-## Features ()
+## Features
 
 1) Improved Navigational Panel and Footer
 2) Improved Consistency of Banners
@@ -24,15 +24,15 @@ appealed to websites that look better.
 
 The wireframe can be found in the folder named 'Wireframe'
 
-## Technologies Used ()
+## Technologies Used
 
 HTML, CSS and JS were used to code the entire website. 
 
-## Testing ()
+## Testing
 
 Do something about the feedback page to validate email. 
 
-## Credits ()
+## Credits 
 
 ### Media 
 
