@@ -1,7 +1,7 @@
 /* ========= CONTENT RELATED =========*/
 .content p{
     font-size: 5rem;
-}
+} 
 .second-tier-header{
     font-size: 2rem;
 }
@@ -10,13 +10,13 @@
 }
 .first-block{
     display: flex;
-    border: red 1px solid; 
+    /* border: red 1px solid;  */
     padding: 5% 10% 0px 10%;
 }
 .image-container{
     display: flex;
     padding: 3%;
-    border: green 1px solid;
+    /* border: green 1px solid; */
     width: 35%;
     justify-content: center;
     align-items: center;
@@ -29,7 +29,7 @@
     border-radius: 50%;
 }
 .first-text-container{
-    border: blue 1px solid;
+   /* border: blue 1px solid; */
     padding: 3%;
     width: 65%;
 }

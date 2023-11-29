@@ -1,3 +1,9 @@
+.content p{
+    font-size: 5rem;
+}
+.first-tier-header{
+    font-size: 4rem;
+}
 .overall-container{
     border: pink 3px solid;
     margin: 90px 120px 0px 120px;

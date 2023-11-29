@@ -25,7 +25,7 @@
     font-weight: bold;
 }
 .flag-container{
-    margin-top: 1%px;
+    margin-top: 1%;
 }
 .three-image-container{
     width: 100%;
@@ -45,13 +45,13 @@
     width: 65%;
 }
 .big-container{
-    border: blue 1px solid;
+    /* border: blue 1px solid; */
     display: flex;
     justify-content: center;
     width: 100%;
 }
 .prospect-holder{
-    border: red 1px solid;
+    /* border: red 1px solid; */
     display: flex;
     justify-content: space-between;
     width: 62.5%;
@@ -72,13 +72,13 @@
     color: #0b674b;
     font-family: Josefin Sans;
     padding: 4% 2% 2% 2%;
-    font-size: 100%;
+    font-size: 200%;
 }
 .about-job p{
     color: #8c6239;
     font-family: Noto Sans;
     font-weight: bold;
-    font-size: 60%;
+    font-size: 110%;
     padding-left: 2%;
     padding-top: 2%;
     padding-right: 4%;
@@ -89,12 +89,12 @@
     padding-top: 4%;
     padding-left: 2%;
     padding-bottom: 2%;
-    font-size: 90%;
+    font-size: 150%;
 }
 .responsibilities-related{
     color: #8c6239;
     font-family: Josefin Sans;
-    font-size: 70%;
+    font-size: 120%;
     padding-right: 4%;
 }
 .responsibilities-related li{
@@ -106,12 +106,12 @@
     font-family: Josefin Sans;
     padding-top: 4%;
     padding-left: 2%;
-    font-size: 90%;
+    font-size: 120%;
 }
 .pay-related{
     color: #8c6239;
     font-family: Josefin Sans;
-    font-size: 70%;
+    font-size: 120%;
 }
 .pay-related li{
     padding-left: 2%;
@@ -135,17 +135,17 @@
     flex-direction: column;
     justify-content: center;
     width: 55%;
-    padding: 50px 100px;
+    padding: 3% 50px;
     border-radius: 4px;
 }
 .tel, .mobile, .email{
-    border: green 1px solid;
+    /* border: green 1px solid; */
     display: flex;
     flex-direction: row;
     width: 100%;
 }
 .indicator{
-    border: pink 1px solid;
+    /* border: pink 1px solid; */
     font-family: Noto Sans;
     color: #0b674b;
     font-weight: bold;
@@ -160,17 +160,133 @@
 .footer-container{
     margin-top: 4%;
 }
-@media (max-width:1700px){
-    .content p{
-        font-size: 5rem;
+@media (max-width){
+    .first-tier-header{
+        font-size: 4rem;
     }
+    .job-prospect h2{
+        font-size: 200%;
+    }
+    .about-job p{
+        font-size: 110%;
+    }
+    .responsibilities-header h3{
+        font-size: 150%;
+    }
+    .responsibilities-related, .pay-header, .pay-related{
+        font-size: 120%;
+    }
+    .indicator, .value{
+        font-size: 200%;
+    }
+}
+@media (max-width: 1600px){
+    .first-tier-header{
+        font-size: 3rem;
+    }
+    .job-prospect h2{
+        font-size: 150%;
+    }
+    .about-job p{
+        font-size: 80%;
+    }
+    .responsibilities-header h3{
+        font-size: 130%;
+    }
+    .responsibilities-related, .pay-header, .pay-related{
+        font-size: 90%;
+    }
+    .indicator, .value{
+        font-size: 150%;
+    }
+}
+@media (max-width: 1230px){
+    .first-tier-header{
+        font-size: 2.8rem;
+    }
+    .job-prospect h2{
+        font-size: 120%;
+    }
+    .about-job p{
+        font-size: 60%;
+    }
+    .responsibilities-header h3{
+        font-size: 110%;
+    }
+    .responsibilities-related, .pay-header, .pay-related{
+        font-size: 70%;
+    }
+    .indicator, .value{
+        font-size: 120%;
+    }
+}
+@media (max-width: 1060px){
+    .indicator, .value{
+        font-size: 80%;
+    }
+}
+@media (max-width: 930px){
     .first-tier-header{
         font-size: 2.5rem;
     }
-    .second-tier-header{
-        font-size: 1rem;
+    .job-prospect h2{
+        font-size: 100%;
     }
-    .brown-text{
-        font-size: 1.1rem;
+    .about-job p{
+        font-size: 50%;
+    }
+    .responsibilities-header h3{
+        font-size: 90%;
+    }
+    .responsibilities-related, .pay-header, .pay-related{
+        font-size: 60%;
+    }
+    .indicator, .value{
+        font-size: 100%;
+    }
+    .indicator, .value{
+        font-size: 70%;
+    }
+}
+@media (max-width: 768px){
+    .first-tier-header{
+        font-size: 2.1rem;
+    }
+    .job-prospect h2{
+        font-size: 80%;
+    }
+    .about-job p{
+        font-size: 40%;
+    }
+    .responsibilities-header h3{
+        font-size: 70%;
+    }
+    .responsibilities-related, .pay-header, .pay-related{
+        font-size: 50%;
+    }
+    .indicator, .value{
+        font-size: 80%;
+    }
+    .indicator, .value{
+        font-size: 50%;
+    }
+    .prospect-holder{
+        flex-direction: column;
+        align-items: center;
+    }
+    .text-holder{
+        border: none;
+        width: 100%;
+    }
+}
+@media (max-width: 600px){
+    .first-tier-header{
+        font-size: 1.7rem;
+    }
+    .indicator, .value{
+        font-size: 60%;
+    }
+    .indicator, .value{
+        font-size: 40%;
     }
 }
