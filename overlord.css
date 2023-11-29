@@ -114,16 +114,25 @@ html{
     color: grey;
 }
 
-@media (max-width: 1600px){
+@media (max-width: 1730px){
     .logo img{
         height:70px;
     }
     .navbar a{
         padding: 15px 30px;
+        font-size: 1rem;
+    }
+}
+@media (max-width: 1230px){
+    .logo img{
+        height:50px;
+    }
+    .navbar a{
+        padding: 15px 20px;
         font-size: 0.8rem;
     }
 }
-@media (max-width: 1180px){
+@media (max-width: 950px){
     .logo img{
         height:50px;
     }
@@ -165,14 +174,14 @@ html{
 }
 /* ==============================  FONT PANEL ============================== */
 /* ========= BANNER RELATED =========*/
-.banner-container img{
+.header-image-container img{
     display: block;
     max-height: 600px;
     width: 100%;
     object-fit: cover;
     object-position: 0px -50px;
 }
-.banner-container{
+.header-image-container{
     position: relative;
 }
 .content{
@@ -307,13 +316,13 @@ html{
     font-family: Josefin Sans;
     text-align: center;
 }
-@media (max-width: 1700px){
+@media (max-width: 1920px){
     .navbar-footer a{
         font-size: 1.3rem;
         margin-right: 20px;
     }
 }
-@media (max-width: 1590px){
+@media (max-width: 1740px){
     .footer-logo-container{
         padding: 40px;
     }
@@ -324,7 +333,7 @@ html{
         padding-right: 150px;
     }
     .navbar-footer a{
-        font-size: 1rem;
+        font-size: 1.1rem;
     }
     .operating-text p, .timing-text p{
         font-size: 1.2rem;
@@ -337,7 +346,7 @@ html{
         font-size: 0.7rem;
     }
 }
-@media (max-width: 1300px){
+@media (max-width: 1480px){
     .footer-logo-container{
         padding:30px;
     }
@@ -351,7 +360,7 @@ html{
         padding: 20px 10px;
     }
     .navbar-footer a{
-        font-size: 0.8rem;
+        font-size: 0.9rem;
     }
     .operating-text p, .timing-text p{
         font-size: 1rem;
@@ -361,7 +370,7 @@ html{
         padding-bottom: 30px;
     }
 }
-@media (max-width: 1110px){
+@media (max-width: 1270px){
     .footer-logo-container{
         padding: 20px;
     }
@@ -369,7 +378,7 @@ html{
         height: 60px;
     }
     .navbar-footer a{
-        font-size: 0.6rem;
+        font-size: 0.7rem;
         margin-right: 5px;
         padding: 10px 15px;
     }
@@ -384,6 +393,13 @@ html{
     }
     .copyright-text p{
         font-size: 0.4rem;
+    }
+}
+@media (max-width: 910px){
+    .navbar-footer a{
+        font-size: 0.55rem;
+        margin-right: 5px;
+        padding: 10px 15px;
     }
 }
 @media (max-width: 830px){

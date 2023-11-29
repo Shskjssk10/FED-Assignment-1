@@ -1,0 +1,219 @@
+.first-tier-header{
+    font-size: 4rem;
+}
+.brown-text{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.overall-header{
+    margin-top: 6%;
+}
+.big-container{
+    /* border: black 1px solid; */
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.feedback-container{
+    /* border: blue 1px solid; */
+    width: 75%;
+}
+.feedback-header{
+    margin: 1.2% 0%;
+}
+.input_box{
+    border: 1px black solid;
+    font-family: Noto Sans;
+    font-size: 1.5rem;
+    padding: 1%;
+    width: 100%;
+    border-radius: 4px;
+}
+.submit-container{
+    display: flex;
+    justify-content: center;
+}
+input[type="submit"]{
+    font-size: 2rem;
+    font-family: Noto Sans;
+    border: none;
+    border-radius: 12px;
+    padding: 1% 6%;
+    margin-top: 4%;
+    color: white;
+    background-color: #0B674b;
+}
+input[type="submit"]:hover{
+    background-color: #084835;
+    color: rgb(163, 163, 163);
+    transition: 0.4s;
+}
+.feedbacklist-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.content-container{
+    border: 1px black solid;
+    width: 75%;
+    border-radius: 12px;
+    padding: 1%;
+    margin-bottom: 2%;
+}
+.name-container{
+    margin-bottom: 1%;
+    font-size: 2rem;
+    font-family: Josefin Sans;
+    font-weight: bold;
+    color: #0B674b;
+}
+.testimonial-container{
+    font-size: 1.8rem;
+    font-family: Noto Sans;
+    color: #8c6239;
+}
+
+@media (max-width ){
+    .first-tier-header{
+        font-size: 4rem;
+    }
+    .brown-text{
+        font-size: 2.5rem;
+    }
+    .name-container{
+        font-size: 2rem;
+    }
+    .testimonial-container{
+        font-size: 1.8rem;
+    }
+    input[type="submit"]{
+        font-size: 2rem;
+    }
+}
+@media (max-width:1700px ){
+    .first-tier-header{
+        font-size: 3.5rem;
+    }
+    .brown-text{
+        font-size: 2.2rem;
+    }
+    .input_box{
+        font-size: 1.5rem;
+    }
+    .name-container{
+        font-size: 1.7rem;
+    }
+    .testimonial-container{
+        font-size: 1.5rem;
+    }
+    input[type="submit"]{
+        font-size: 1.8rem;
+    }
+}
+@media (max-width:1300px ){
+    .overall-header{
+        margin-top: 5%;
+    }
+    .first-tier-header{
+        font-size: 3rem;
+    }
+    .brown-text{
+        font-size: 1.9rem;
+    }
+    .input_box{
+        font-size: 1.3rem;
+    }
+    .name-container{
+        font-size: 1.4rem;
+    }
+    .testimonial-container{
+        font-size: 1.2rem;
+    }
+    input[type="submit"]{
+        font-size: 1.6rem;
+    }
+}
+@media (max-width: 1000px){
+    .content-container{
+        padding: 2%;
+    }
+}
+@media (max-width: 786px){
+    .first-tier-header{
+        font-size: 2.8rem;
+    }
+    .brown-text{
+        font-size: 1.6rem;
+    }
+    .input_box{
+        font-size: 1.1rem;
+    }
+    .name-container{
+        font-size: 1.2rem;
+    }
+    .testimonial-container{
+        font-size: 1rem;
+    }
+    input[type="submit"]{
+        font-size: 1rem;
+    }
+}
+@media (max-width: 500px){
+    .overall-header{
+        margin-top: 0%;
+    }
+    .first-tier-header{
+        font-size: 2.4rem;
+    }
+    .brown-text{
+        font-size: 1.2rem;
+    }
+    .input_box{
+        font-size: 0.8rem;
+    }
+    .content-container{
+        margin-bottom: 5%;
+    }
+    .name-container{
+        font-size: 1rem;
+    }
+    .testimonial-container{
+        font-size: 0.8rem;
+    }
+    .special{
+        margin: 6% 0% 2% 0%
+    }
+    input[type="submit"]{
+        font-size: 0.8rem;
+    }
+}
+@media (max-width:400px){
+    .overall-header{
+        margin-top: 0%;
+    }
+    .first-tier-header{
+        font-size: 1.9rem;
+    }
+    .brown-text{
+        font-size: 1rem;
+    }
+    .input_box{
+        font-size: 0.6rem;
+    }
+    .content-container{
+        margin-bottom: 5%;
+    }
+    .name-container{
+        font-size: 0.8rem;
+    }
+    .testimonial-container{
+        font-size: 0.6rem;
+    }
+    .special{
+        margin: 6% 0% 2% 0%
+    }
+    input[type="submit"]{
+        font-size: 0.6rem;
+    }
+}
