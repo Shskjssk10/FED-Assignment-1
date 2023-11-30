@@ -5,13 +5,13 @@
     font-size: 4rem;
 }
 .overall-container{
-    border: pink 3px solid;
-    margin: 90px 120px 0px 120px;
+    /* border: pink 3px solid; */
+    margin: 3% 10%;
     display: flex;
     flex-direction: column;
 }
 .map-container{
-    border: purple 3px solid;
+    /* border: purple 3px solid; */
     display: flex;
     justify-content: center;
 }
@@ -20,4 +20,140 @@
     position: absolute;
     height: 90%;
     width: 80%;
+}
+.footer-container{
+    margin-top: 50%;
+}
+@media (max-width){
+    .content p{
+        font-size: 5rem;
+    }
+    .first-tier-header{
+        font-size: 4rem;
+    }
+    #map{
+        height: 90%;
+    }
+}
+@media (max-width: 1600px){
+    .content p{
+        font-size: 4rem;
+    }
+    .first-tier-header{
+        font-size: 3rem;
+    }
+    #map{
+        width: 70%;
+        height: 70%;
+    }
+    .footer-container{
+        margin-top: 50%;
+    }
+}
+@media (max-width: 1320px){
+    .content p{
+        font-size: 3.5rem;
+    }
+    .first-tier-header{
+        font-size: 2.8rem;
+    }
+    #map{
+        width: 65%;
+        height: 55%;
+    }
+    .footer-container{
+        margin-top: 50%;
+    }
+}
+@media (max-width: 1040px){
+    .content p{
+        font-size: 3rem;
+    }
+    .first-tier-header{
+        font-size: 2.5rem;
+    }
+    #map{
+        width: 50%;
+        height: 40%;
+    }
+    .footer-container{
+        margin-top: 50%;
+    }
+}
+@media (max-width: 940px){
+    .overall-container{
+        margin: 1% 10%;
+    }
+}
+@media (max-width: 790px){
+    .overall-container{
+        margin: 0.5% 10%;
+    }
+    .content p{
+        font-size: 2.5rem;
+    }
+    .first-tier-header{
+        font-size: 2.2rem;
+    }
+    #map{
+        width: 45%;
+        height: 30%;
+    }
+    .footer-container{
+        margin-top: 50%;
+    }
+}
+@media (max-width: 620px){
+    .overall-container{
+        margin: none;
+    }
+    .content p{
+        font-size: 2rem;
+    }
+    .first-tier-header{
+        font-size: 1.8rem;
+    }
+    #map{
+        width: 55%;
+        height: 25%;
+    }
+    .footer-container{
+        margin-top: 65%;
+    }
+}
+@media (max-width: 410px){
+    .overall-container{
+        margin: none;
+    }
+    .content p{
+        font-size: 1.7rem;
+    }
+    .first-tier-header{
+        font-size: 1.4rem;
+    }
+    #map{
+        width: 45%;
+        height: 15%;
+    }
+    .footer-container{
+        margin-top: 65%;
+    }
+}
+@media (max-width: 330px){
+    .overall-container{
+        margin: none;
+    }
+    .content p{
+        font-size: 1.4rem;
+    }
+    .first-tier-header{
+        font-size: 1.1rem;
+    }
+    #map{
+        width: 45%;
+        height: 15%;
+    }
+    .footer-container{
+        margin-top: 65%;
+    }
 }

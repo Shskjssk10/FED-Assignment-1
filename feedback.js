@@ -3,6 +3,7 @@ document.addEventListener("submit", function (event) {
 
     let peName = document.getElementById("name").value;
     let peFeedback = document.getElementById("feedbackTxt").value;
+    let peEmail = document.getElementById("email").value;
 
     let feedbackList = [];
 
@@ -10,7 +11,7 @@ document.addEventListener("submit", function (event) {
         feedbackList = JSON.parse(localStorage.getItem("feedbackList"));
     }
     
-    let newFeedback = new Feedback(peName, peFeedback);
+    let newFeedback = new Feedback(peName, peFeedback, peEmail);
     feedbackList.push(newFeedback);
     localStorage.setItem("feedbackList", JSON.stringify(feedbackList));
 
@@ -20,9 +21,10 @@ document.addEventListener("submit", function (event) {
     refreshFeedback();
 });
 
-function Feedback(peName, peFeedback) {
+function Feedback(peName, peFeedback, peEmail) {
     this.id = Date.now();
     this.name = peName;
+    this.email = peEmail;
     this.feedback = peFeedback;
 }
 

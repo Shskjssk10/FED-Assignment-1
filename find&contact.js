@@ -1,4 +1,5 @@
 window.onload = function(){
+
     maptilersdk.config.apiKey = 'xK45SpfS3H0Qvn5ytCae';
       const map = new maptilersdk.Map({
         container: 'map', // container's id or the HTML element to render the map
@@ -114,4 +115,3 @@ window.onload = function(){
     .setLngLat([103.83075575537832, 1.4147550331922552])
     .addTo(map);
 }
-
