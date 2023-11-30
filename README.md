@@ -1,5 +1,7 @@
 # FED-Assignment-1 
 
+https://shskjssk10.github.io/FED-Assignment-1/
+
 The focus of this project is to give Singapore's Saizeriya counterpart website a more professional and inviting look. 
 
 With 80 years of history on its back, Saizeriya has come a long way from its humble beginnings in Ichikawa. Saizeriya Singapore, like all the other global
