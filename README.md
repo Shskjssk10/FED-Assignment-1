@@ -48,7 +48,7 @@ HTML, CSS and JS were used to code the entire website.
 
 There are two things that mainly needed testing: 
 
-- Responsiveness
+### Responsiveness
 1. Decrease and increase viewport width to check if elements of the website were responsive.
 2. Especially checked if navigation and footer panel's elements disappeared when hitting a certain width, while the hamburger menu appear in the navigation
    panel at the top.
@@ -56,7 +56,7 @@ There are two things that mainly needed testing:
 To further elaborate on responsiveness. Elements' 'flex-direction' would be set to 'column' after a certain width as it would transition to a mobile phone 
 POV, which is not wide enough to show a desktop' POV, otherwise the text would be too small to read. 
 
--  Feedback Form
+### Feedback Form
 1. Went to 'FEEDBACK' page
 2. Try to submit empty form and verify that an error message about the required field appears.
 3. Try to submit the form with an invalid email address and verify that a relevant error message appears.
